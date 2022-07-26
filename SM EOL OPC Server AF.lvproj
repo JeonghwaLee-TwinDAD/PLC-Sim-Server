@@ -90,7 +90,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2EF05A-7E2E-4B75-ABA2-BDDB40CB3F32}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OPC Sim Server.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/OPC Sim Server.exe</Property>
@@ -101,7 +101,7 @@
 				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{452A04EF-EA59-4068-AEBC-C291C213610F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{23FB9AD9-AD05-4AEE-B44C-99294692A2AB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/OPC Server.lvlib/OPC Server.lvclass/Load App.vi</Property>
@@ -121,7 +121,10 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Panel.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/OPC Server.lvlib/OPC Server.lvclass</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Lunar Energy</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">OPC Sim Server</Property>
 				<Property Name="TgtF_internalName" Type="Str">OPC Sim Server</Property>

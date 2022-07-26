@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Pause Resume OPC UA Msg.lvclass" Type="LVClass" URL="../Panel Messages/Pause Resume OPC UA Msg/Pause Resume OPC UA Msg.lvclass"/>
+		<Item Name="Reinitalize Components Msg.lvclass" Type="LVClass" URL="../Panel Messages/Reinitalize Components Msg/Reinitalize Components Msg.lvclass"/>
 		<Item Name="Set Node IDs Msg.lvclass" Type="LVClass" URL="../Panel Messages/Set Node IDs Msg/Set Node IDs Msg.lvclass"/>
 		<Item Name="Set Tester Rx Msg.lvclass" Type="LVClass" URL="../Panel Messages/Set Tester Rx Msg/Set Tester Rx Msg.lvclass"/>
 		<Item Name="Set Tester Tx Msg.lvclass" Type="LVClass" URL="../Panel Messages/Set Tester Tx Msg/Set Tester Tx Msg.lvclass"/>
