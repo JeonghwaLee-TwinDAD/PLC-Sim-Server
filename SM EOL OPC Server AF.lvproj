@@ -23,11 +23,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="OPC Server AF.ini" Type="Document" URL="../OPC Server AF.ini"/>
+		<Item Name="OPC Server AF Launcher.lvlib" Type="Library" URL="../APP Launcher/OPC Server AF Launcher.lvlib"/>
 		<Item Name="OPC Server.lvlib" Type="Library" URL="../OPC Server/OPC Server.lvlib"/>
 		<Item Name="Station.lvlib" Type="Library" URL="../Station/Station.lvlib"/>
 		<Item Name="Panel.lvlib" Type="Library" URL="../Station Panel/Panel.lvlib"/>
-		<Item Name="BLUE-INVERS-sensor-OPCUA-icon-large-400x364.ico" Type="Document" URL="../BLUE-INVERS-sensor-OPCUA-icon-large-400x364.ico"/>
+		<Item Name="Lunar.ico" Type="Document" URL="../../Testand_Template_x64/Environment/Public/Icons/Lunar.ico"/>
+		<Item Name="OPC Server AF.ini" Type="Document" URL="../OPC Server AF.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -119,7 +120,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2EF05A-7E2E-4B75-ABA2-BDDB40CB3F32}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OPC Sim Server.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/OPC Sim Server.exe</Property>
@@ -130,12 +131,11 @@
 				<Property Name="Destination[1].path" Type="Path">../Build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/BLUE-INVERS-sensor-OPCUA-icon-large-400x364.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{12AD3C4D-012F-4DDF-8C90-72FFA9C075E8}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Lunar.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F6B1D903-1A10-40E2-9ED3-283150361BD9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/OPC Server.lvlib/OPC Server.lvclass/Load App.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/OPC Server.lvlib</Property>
@@ -154,7 +154,11 @@
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/OPC Server.lvlib/OPC Server.lvclass</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/OPC Server AF Launcher.lvlib/Splash Screen.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">Lunar Energy</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">OPC Sim Server</Property>
 				<Property Name="TgtF_internalName" Type="Str">OPC Sim Server</Property>
