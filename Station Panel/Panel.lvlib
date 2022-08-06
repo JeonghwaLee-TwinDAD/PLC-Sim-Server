@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="FP Front most Msg.lvclass" Type="LVClass" URL="../Panel Messages/FP Front most Msg/FP Front most Msg.lvclass"/>
 		<Item Name="Pause Resume OPC UA Msg.lvclass" Type="LVClass" URL="../Panel Messages/Pause Resume OPC UA Msg/Pause Resume OPC UA Msg.lvclass"/>
 		<Item Name="Reinitalize Components Msg.lvclass" Type="LVClass" URL="../Panel Messages/Reinitalize Components Msg/Reinitalize Components Msg.lvclass"/>
 		<Item Name="Set Node IDs Msg.lvclass" Type="LVClass" URL="../Panel Messages/Set Node IDs Msg/Set Node IDs Msg.lvclass"/>

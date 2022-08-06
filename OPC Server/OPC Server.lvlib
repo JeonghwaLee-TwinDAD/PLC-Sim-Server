@@ -10,6 +10,7 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Enable New Station Msg.lvclass" Type="LVClass" URL="../OPC Server Messages/Enable New Station Msg/Enable New Station Msg.lvclass"/>
 		<Item Name="Launch New Station Msg.lvclass" Type="LVClass" URL="../OPC Server Messages/Launch New Station Msg/Launch New Station Msg.lvclass"/>
+		<Item Name="Select online Station Msg.lvclass" Type="LVClass" URL="../OPC Server Messages/Select online Station Msg/Select online Station Msg.lvclass"/>
 		<Item Name="Stop OPC UA Msg.lvclass" Type="LVClass" URL="../OPC Server Messages/Stop OPC UA Msg/Stop OPC UA Msg.lvclass"/>
 	</Item>
 	<Item Name="OPC Server.lvclass" Type="LVClass" URL="../OPC Server Actor/OPC Server.lvclass"/>
