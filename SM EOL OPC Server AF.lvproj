@@ -105,7 +105,7 @@
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Application" Type="EXE">
+			<Item Name="OPC Sim Server" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{3320804A-5833-4892-9B98-899CE1E945B0}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{56284D55-FC22-4A77-8983-24333E7680C3}</Property>
@@ -113,27 +113,27 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AAAA7D14-8AB1-4DBB-AAF4-0226A43C5251}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Application</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">OPC Sim Server</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Build/Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Build/OPC Sim Server</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2EF05A-7E2E-4B75-ABA2-BDDB40CB3F32}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OPC Sim Server.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Build/Application/Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Build/OPC Sim Server/Application.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Build/Application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Build/OPC Sim Server/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Lunar.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6D411DA4-5BA3-4C41-B4D7-9256193AF439}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5FE501B0-2AAE-42AB-BE1D-485F1D85B65D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/OPC Server AF.ini</Property>
@@ -143,10 +143,10 @@
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Lunar Energy</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">Application</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">OPC Sim Server</Property>
+				<Property Name="TgtF_internalName" Type="Str">OPC Sim Server</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Lunar Energy</Property>
-				<Property Name="TgtF_productName" Type="Str">Application</Property>
+				<Property Name="TgtF_productName" Type="Str">OPC Sim Server</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{89F9961B-68CF-4D27-80A4-F0F0EEBFE78C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">OPC Sim Server.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
@@ -163,7 +163,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/Package/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">opc-sim-server_1.0.0-5_windows_x64.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">opc-sim-server_1.0.0-6_windows_x64.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
@@ -172,7 +172,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">6</Property>
+				<Property Name="PKG_buildNumber" Type="Int">7</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">Package</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">2</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -221,11 +221,11 @@
 				<Property Name="PKG_shortcuts[0].Path" Type="Path">SM EOL OPC Server AF</Property>
 				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{89F9961B-68CF-4D27-80A4-F0F0EEBFE78C}</Property>
 				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">root_0</Property>
-				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Build Specifications/Application</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Build Specifications/OPC Sim Server</Property>
 				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_sources.Count" Type="Int">1</Property>
 				<Property Name="PKG_sources[0].Destination" Type="Str">root_0</Property>
-				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Application</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/OPC Sim Server</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
 				<Property Name="PKG_synopsis" Type="Str">SM EOL OPC Server</Property>
 				<Property Name="PKG_version" Type="Str">1.0.0</Property>
