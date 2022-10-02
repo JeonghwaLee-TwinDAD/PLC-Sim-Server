@@ -121,7 +121,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C2EF05A-7E2E-4B75-ABA2-BDDB40CB3F32}</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OPC Sim Server.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/OPC Sim Server/Application.exe</Property>
@@ -133,10 +133,11 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Lunar.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5FE501B0-2AAE-42AB-BE1D-485F1D85B65D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0D095057-F0E3-4B32-8C89-C0044B8508BD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/OPC Server AF.ini</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/OPC Server AF Launcher.lvlib/Splash Screen.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
